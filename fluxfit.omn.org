@@ -1,0 +1,29 @@
+omnitab
+read 1 2 3 4 5 20
+file flux.dat
+read 11 12 13 14
+file n2volume.dat
+add 4 0.0 11
+add 10. 12 21
+div 12 21 12
+mult 12 100. 12
+add 10. 12 15
+mult 15 15 15
+div 10. 15 15
+mult 14 15 14
+mult 14 100. 14
+mult 2. -.046845824 6
+mult 6 11 6
+add 2.3666198   6 6
+mult 6 6 6
+mult 0.01 11 7
+mult 7 7 7
+mult 6 7 7
+sqrt 7 7
+print 11 6 7
+mult 14 14 15
+mult 7 7 16
+add 15 16 9
+sqrt 9 9
+format a (2x,f5.1,f14.6,3f12.5)
+print a 11 12 14 7 9
